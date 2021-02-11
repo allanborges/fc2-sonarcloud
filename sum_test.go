@@ -10,3 +10,12 @@ func TestSum(t *testing.T) {
 		t.Error("Deu pala")
 	}
 }
+
+func TestDivide(t *testing.T) {
+
+	result := divide(20, 5)
+
+	if result != 4 {
+		t.Error("Deu Pala")
+	}
+}
