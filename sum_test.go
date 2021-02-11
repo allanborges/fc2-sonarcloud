@@ -24,7 +24,7 @@ func TestMultiply(t *testing.T) {
 
 	result := multiply(2, 3)
 
-	if result != 5 {
+	if result != 6 {
 		t.Error("Deu pala")
 	}
 }
