@@ -19,12 +19,3 @@ func TestDivide(t *testing.T) {
 		t.Error("Deu Pala")
 	}
 }
-
-func TestMultiply(t *testing.T) {
-
-	result := multiply(2, 3)
-
-	if result != 6 {
-		t.Error("Deu pala")
-	}
-}
